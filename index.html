@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Product Listing Page</h1>
+        <div class="filters">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <!-- Categories will be populated dynamically -->
+            </select>
+            <input type="text" id="search-input" placeholder="Search...">
+            <select id="sort-order">
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+        </div>
+        <div id="product-list" class="grid-container">
+            <!-- Product items will be populated dynamically -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
